@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="1" locked="true" measuredWidth="900" measuredHeight="800">
+    <screen xsi:type="model:Screen" href="assets/browser.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#f3f3f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" y="53" width="176" height="746" measuredWidth="176" measuredHeight="746" background="#134f5c" foreground="#45818e" border="none"/>
+  <widgets xsi:type="model:Panel" id="3" x="176" y="54" width="721" height="52" measuredWidth="721" measuredHeight="52" foreground="#45818e" border="none"/>
+  <widgets xsi:type="model:Panel" id="7" y="53" width="176" height="148" measuredWidth="176" measuredHeight="148" background="#eee" foreground="#45818e" border="none"/>
+  <widgets xsi:type="model:Image" id="6" x="40" y="72" width="96" height="96" measuredWidth="96" measuredHeight="96" src="assets/logoHD2.png"/>
+  <widgets xsi:type="model:Master" id="4" x="31" y="216" measuredWidth="100" measuredHeight="24">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Data sources {assets/gl-menu-down}">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="8" x="855" y="64" measuredWidth="32" measuredHeight="32" foreground="#999" icon="import (large)" link="login.screen"/>
+  <widgets xsi:type="model:Icon" id="9" x="814" y="64" measuredWidth="32" measuredHeight="32" foreground="#999" icon="home (large)" link="dashboard.screen"/>
+  <widgets xsi:type="model:Master" id="10" x="698" y="70" measuredWidth="97" measuredHeight="23">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Hasdai Pacheco"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="14" y="247" width="176" height="82" measuredWidth="176" measuredHeight="82" background="#0c343d" foreground="#45818e" border="none"/>
+  <widgets xsi:type="model:Master" id="12" x="31" y="261" measuredWidth="63" measuredHeight="23" link="catalogs.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Catálogos">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="13" x="31" y="291" measuredWidth="108" measuredHeight="23">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Transformaciones">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="15" x="30" y="346" measuredWidth="122" measuredHeight="23">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Usuarios y permisos">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="16" x="31" y="386" measuredWidth="126" measuredHeight="23">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Anotación ontológica">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="18" x="31" y="426" measuredWidth="51" measuredHeight="24">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="APIs {assets/gl-menu-down}">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="21" y="462" width="176" height="91" measuredWidth="176" measuredHeight="91" background="#0c343d" foreground="#45818e" border="none"/>
+  <widgets xsi:type="model:Master" id="22" x="31" y="476" measuredWidth="71" measuredHeight="23" link="apimanagement.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Administrar">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="23" x="31" y="512" measuredWidth="87" measuredHeight="23" link="keygen.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Generar llaves">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

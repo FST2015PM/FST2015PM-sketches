@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="8" x="-8" locked="true" measuredWidth="900" measuredHeight="800">
+    <screen xsi:type="model:Screen" href="assets/browser.screen#/"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#f3f3f3"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="9" x="320" y="264" width="249" height="249" measuredWidth="249" measuredHeight="249" src="assets/logoHD2.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>
