@@ -24,4 +24,16 @@
   <panels id="8Tf88Vr7LY34d8Tx4-8iaTKBRJE=" x="975" y="375">
     <screen href="../keygen.screen#/"/>
   </panels>
+  <panels id="RHHv8Pe6HnOEA7APwQE_kzQb83I=" x="75" y="675">
+    <screen href="../adminlogin.screen#/"/>
+  </panels>
+  <panels id="3C53gUM0Cb8LIwRzarqz0LSbZ7E=" x="375" y="675">
+    <screen href="../editDatasource.screen#/"/>
+  </panels>
+  <panels id="A4AiYuXsSlYsr4TK9Jw_0Q0srJw=" x="675" y="675">
+    <screen href="../maps.screen#/"/>
+  </panels>
+  <panels id="cpwRWmrOJ2LnQ86GKlLs74WIuvw=" x="975" y="675">
+    <screen href="../mapsConfig.screen#/"/>
+  </panels>
 </story:Storyboard>

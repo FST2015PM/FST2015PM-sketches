@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="1" locked="true" measuredWidth="900" measuredHeight="800">
     <screen xsi:type="model:Screen" href="assets/browser.screen#/"/>
     <overrides>
@@ -93,6 +93,37 @@
         <attributes key="foreground" value="#999"/>
         <font bold="true"/>
       </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="205" y="167" height="264" measuredWidth="664" measuredHeight="264">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Area"/>
+    <overrides>
+      <widgets ref="16" width="664" height="264" text="eng.dataSources [&quot;Direccion&quot;] = {&#xA;    scls: &quot;Direccion&quot;,&#xA;    modelid: &quot;SWBF2&quot;,&#xA;    dataStore: &quot;mongodb&quot;,    &#xA;    displayField: &quot;calle&quot;,&#xA;    fields: [&#xA;        {name: &quot;calle&quot;, title: &quot;Calle&quot;, required: true, type: &quot;string&quot;},&#xA;        {name: &quot;numero&quot;, title: &quot;Numero&quot;, type: &quot;string&quot;},&#xA;        {name: &quot;colonia&quot;, title: &quot;Colonia&quot;, type: &quot;string&quot;},&#xA;        {name: &quot;municipio&quot;, title: &quot;Municipio&quot;, type: &quot;string&quot;},&#xA;        {name: &quot;cp&quot;, title: &quot;CP&quot;, type: &quot;int&quot;, validators:[{type:&quot;integerRange&quot;, min:5, max:5000}], validators_:[{stype:&quot;zipcode&quot;}]},&#xA;        {name: &quot;pais&quot;, title: &quot;Pais&quot;, required: true, stype: &quot;select&quot;, dataSource:&quot;Pais&quot;, ">
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="{stype:&quot;zipcode&quot;}"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="{type:&quot;integerRange&quot;, min:5, max:5000}"/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" text="&quot;Direccion&quot;"/>
+        </itemChanges>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="26" x="192" y="119" measuredWidth="180" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h5.%20Heading"/>
+    <overrides>
+      <widgets ref="14" text="DataSource de Entidades">
+        <attributes key="foreground" value="#444"/>
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="797" y="449" measuredWidth="73" measuredHeight="34" link="catalogs.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="Guardar"/>
     </overrides>
   </widgets>
   <hRuler/>

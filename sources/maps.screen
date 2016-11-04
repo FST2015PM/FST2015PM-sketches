@@ -127,6 +127,10 @@
       </widgets>
     </overrides>
   </widgets>
+  <widgets xsi:type="model:Image" id="40" x="190" y="229" width="694" height="436" measuredWidth="694" measuredHeight="436" src="assets/demoMap.png"/>
+  <widgets xsi:type="model:Label" id="41" x="190" y="190" text="Análisis dimensional económico" measuredWidth="226" measuredHeight="25">
+    <font size="14px" bold="true"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

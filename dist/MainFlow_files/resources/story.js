@@ -115,6 +115,15 @@ var story = {
       96
      ],
      "page": 2
+    },
+    {
+     "rect": [
+      31,
+      261,
+      75,
+      284
+     ],
+     "page": 11
     }
    ],
    "title": "dashboard",
@@ -192,6 +201,24 @@ var story = {
       535
      ],
      "page": 7
+    },
+    {
+     "rect": [
+      592,
+      252,
+      609,
+      269
+     ],
+     "page": 9
+    },
+    {
+     "rect": [
+      592,
+      289,
+      609,
+      306
+     ],
+     "page": 9
     }
    ],
    "title": "catalogs",
@@ -221,6 +248,153 @@ var story = {
     }
    ],
    "title": "keygen",
+   "height": 800
+  },
+  {
+   "image": "adminlogin.png",
+   "width": 900,
+   "links": [{
+    "rect": [
+     301,
+     500,
+     597,
+     534
+    ],
+    "page": 2
+   }],
+   "title": "adminlogin",
+   "height": 800
+  },
+  {
+   "image": "editDatasource.png",
+   "width": 900,
+   "links": [
+    {
+     "rect": [
+      855,
+      64,
+      887,
+      96
+     ],
+     "page": 0
+    },
+    {
+     "rect": [
+      814,
+      64,
+      846,
+      96
+     ],
+     "page": 3
+    },
+    {
+     "rect": [
+      31,
+      261,
+      94,
+      284
+     ],
+     "page": 6
+    },
+    {
+     "rect": [
+      31,
+      476,
+      102,
+      499
+     ],
+     "page": 5
+    },
+    {
+     "rect": [
+      31,
+      512,
+      118,
+      535
+     ],
+     "page": 7
+    },
+    {
+     "rect": [
+      797,
+      449,
+      870,
+      483
+     ],
+     "page": 6
+    }
+   ],
+   "title": "editDatasource",
+   "height": 800
+  },
+  {
+   "image": "maps.png",
+   "width": 900,
+   "links": [
+    {
+     "rect": [
+      855,
+      64,
+      887,
+      96
+     ],
+     "page": 0
+    },
+    {
+     "rect": [
+      814,
+      64,
+      846,
+      96
+     ],
+     "page": 2
+    },
+    {
+     "rect": [
+      31,
+      261,
+      75,
+      284
+     ],
+     "page": 11
+    }
+   ],
+   "title": "maps",
+   "height": 800
+  },
+  {
+   "image": "mapsConfig.png",
+   "width": 900,
+   "links": [
+    {
+     "rect": [
+      855,
+      64,
+      887,
+      96
+     ],
+     "page": 0
+    },
+    {
+     "rect": [
+      814,
+      64,
+      846,
+      96
+     ],
+     "page": 2
+    },
+    {
+     "rect": [
+      771,
+      472,
+      883,
+      506
+     ],
+     "page": 10
+    }
+   ],
+   "title": "mapsConfig",
    "height": 800
   }
  ],

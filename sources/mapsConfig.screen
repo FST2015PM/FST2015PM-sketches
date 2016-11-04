@@ -29,7 +29,7 @@
     </overrides>
   </widgets>
   <widgets xsi:type="model:Panel" id="14" y="247" width="176" height="82" measuredWidth="176" measuredHeight="82" background="#0c343d" foreground="#45818e" border="none"/>
-  <widgets xsi:type="model:Master" id="12" x="31" y="261" measuredWidth="44" measuredHeight="23" link="mapsConfig.screen">
+  <widgets xsi:type="model:Master" id="12" x="31" y="261" measuredWidth="44" measuredHeight="23">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
     <overrides>
       <widgets ref="16" text="Mapas">
@@ -125,6 +125,109 @@
       <widgets ref="16" text="Infraestructura">
         <attributes key="foreground" value="#fff"/>
       </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="28" x="606" y="176" measuredWidth="182" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" text="Índice de marginación {desc}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="490" y="179" measuredWidth="77" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Indicador:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="186" y="224" measuredWidth="93" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Columna lat:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="31" x="332" y="217" measuredWidth="56" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" text="lat {desc}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="32" x="462" y="224" measuredWidth="97" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Columna lon:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="33" x="606" y="217" measuredWidth="60" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" text="lon {desc}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="749" y="277" measuredWidth="136" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="Agregar indicador"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="35" x="332" y="177" measuredWidth="119" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" text="Marginacion {desc}"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="36" x="186" y="180" measuredWidth="92" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="DataSource:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="37" x="186" y="261" width="701" measuredWidth="701" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="38" x="191" y="330" measuredWidth="692" measuredHeight="128">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table%20Condensed"/>
+    <overrides>
+      <widgets ref="53" text="#, DataSource, Indicador, Campo lat, Campo lon&#xA;1, Marginación, Índice de marginación, lat, lon&#xA;2, Derrama económica, Derrama 2012, lat, lon&#xA;3, Pueblos mágicos, Nombre, Campo lat, Campo lon"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="39" x="771" y="472" measuredWidth="112" measuredHeight="34" link="maps.screen">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Primary"/>
+    <overrides>
+      <widgets ref="35" text="Generar mapa"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="40" x="186" y="140" measuredWidth="132" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Nombre del mapa:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="332" y="135" measuredWidth="257" measuredHeight="35">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Forms.screen#Text%20Input"/>
+    <overrides>
+      <widgets ref="1" text="Análisis dimensional económico"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="616" y="140" measuredWidth="42" measuredHeight="25">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Typography.screen#h6.%20Heading"/>
+    <overrides>
+      <widgets ref="16" text="Tipo:">
+        <font size="14px" bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="44" x="666" y="136" measuredWidth="81" measuredHeight="34">
+    <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Buttons.screen#Button%20Dropdown"/>
+    <overrides>
+      <widgets ref="23" text="Capas {desc}"/>
     </overrides>
   </widgets>
   <hRuler/>

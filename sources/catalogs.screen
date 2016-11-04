@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
   <widgets xsi:type="model:Master" id="1" locked="true" measuredWidth="900" measuredHeight="800">
     <screen xsi:type="model:Screen" href="assets/browser.screen#/"/>
     <overrides>
@@ -86,10 +86,17 @@
       </widgets>
     </overrides>
   </widgets>
-  <widgets xsi:type="model:Master" id="24" x="187" y="205" measuredWidth="692" measuredHeight="78">
+  <widgets xsi:type="model:Master" id="24" x="187" y="205" measuredWidth="692" measuredHeight="115">
     <screen xsi:type="model:WidgetGroup" href="assets/Bootstrap/Content.screen#Table"/>
     <overrides>
-      <widgets ref="51" text="Datasource, Acciones&#xA;Entidades, {assets/gl-trash}  {assets/gl-pencil} {assets/gl-wrench}"/>
+      <widgets ref="51" text="Datasource, Acciones&#xA;Entidades, {assets/gl-trash}  [{assets/gl-pencil}] {assets/gl-wrench}&#xA;Municipios, {assets/gl-trash}  [{assets/gl-pencil}] {assets/gl-wrench}">
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" link="editDatasource.screen" text=" "/>
+        </itemChanges>
+        <itemChanges xsi:type="o:Insert">
+          <object xsi:type="model:Item" link="editDatasource.screen" text=" "/>
+        </itemChanges>
+      </widgets>
     </overrides>
   </widgets>
   <widgets xsi:type="model:Master" id="25" x="731" y="155" measuredWidth="148" measuredHeight="34">
